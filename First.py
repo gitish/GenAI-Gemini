@@ -1,6 +1,7 @@
 #!pip install -U -q google-generativeai # Install the Python SDK
 import google.generativeai as genai
 from google.colab import userdata
+#from google.generativeai import *
 
 
 GOOGLE_API_KEY=userdata.get('GOOGLE_API_KEY')

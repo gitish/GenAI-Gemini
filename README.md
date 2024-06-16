@@ -13,8 +13,11 @@
 # Local Setup (How to run in Local)
 1. In an empty folder create a python virtual environment
 ```
-python -m venv venv
-source venv/bin/activate
+python -m venv local
+source local/bin/activate
+export FLASK_APP=hello.py
+flask run
+
 ```
 2. Now we make a requirements.txt file for installing the packages.
 ```
@@ -38,8 +41,6 @@ GOOGLE_API_KEY="<your-API-key>"
 python -m venv venv
 . venv/bin/activate
 pip3 install --upgrade pip
-pip3 install flask google-cloud-aiplatform
-pip3 install streamlit
-pip3 install google-generativeai
+pip3 install flask google-cloud-aiplatform streamlit google-generativeai
 pip3 install dotenv
 ```
