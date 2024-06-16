@@ -34,6 +34,7 @@ GOOGLE_API_KEY="<your-API-key>"
 ```
 
 ## Troubleshoot command
+```
 python -m venv venv
 . venv/bin/activate
 pip3 install --upgrade pip
@@ -41,4 +42,4 @@ pip3 install flask google-cloud-aiplatform
 pip3 install streamlit
 pip3 install google-generativeai
 pip3 install dotenv
-
+```
