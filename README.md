@@ -19,6 +19,7 @@ pip3 install flask google-cloud-aiplatform streamlit google-generativeai
 
 ```
 OR follow step 2 and 3
+
 2. (Optional) Now we make a requirements.txt file for installing the packages.
 ```
 google-generativeai
