@@ -15,26 +15,42 @@
 ```
 python -m venv local
 source local/bin/activate
-export FLASK_APP=hello.py
-flask run
+pip3 install flask google-cloud-aiplatform streamlit google-generativeai
 
 ```
-2. Now we make a requirements.txt file for installing the packages.
+OR follow step 2 and 3
+2. (Optional) Now we make a requirements.txt file for installing the packages.
 ```
 google-generativeai
 streamlit
 dotenv
 ```
 Here, the google-generativeai is a package by Google to access the Gemini model and streamlit is a fast and easy way for creating web applications. 
-4. Now we install these packages
+
+3. Now we install these packages
 ```
 pip install -r requirements.txt
 ```
 If you have pip3 installed then use pip3 command instead of pip
-5. Create .env file and paste your API Key  generated above
+
+4. Create .env file and paste your API Key  generated above
 ```
 GOOGLE_API_KEY="<your-API-key>"
 ```
+OR
+5. Save key in invironment variable 
+```export GOOGLE_API_KEY="<<your-API-key>>" ```
+
+6. Run your application 
+```
+export FLASK_APP=code/App.py
+flask run
+```
+OR
+```
+python3 code/App.py
+```
+
 
 ## Troubleshoot command
 ```
