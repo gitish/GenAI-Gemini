@@ -1,6 +1,6 @@
 ## GoLang Code Reference : [![Go Example Reference](https://pkg.go.dev/badge/github.com/google/generative-ai-go.svg)](https://github.com/gitish/GenAI-Gemini-Go)
 
-## Get started with the Gemini API
+## Get started with the Gemini API in Python
 1. Go to [Google AI Studio](https://aistudio.google.com/).
 2. Login with your Google account.
 3. [Create](https://aistudio.google.com/app/apikey) an API key.
